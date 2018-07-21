@@ -1,0 +1,12 @@
+Source: ros-indigo-cob-base-velocity-smoother
+Section: misc
+Priority: extra
+Maintainer: Benjamin Maidel <bnm@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-indigo-catkin, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-roslint, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/cob_base_velocity_smoother
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cob-base-velocity-smoother
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-roslint, ros-indigo-std-msgs
+Description: The 'cob_base_velocity_smoother' reads velocity messages and publishes messages of the same type for &quot;smoothed&quot; velocity to avoid shaking behavior.
