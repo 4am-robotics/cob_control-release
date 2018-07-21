@@ -1,0 +1,128 @@
+ros-indigo-cob-control (0.6.17-0trusty) trusty; urgency=high
+
+  * update maintainer
+  * Contributors: fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.16-0trusty) trusty; urgency=high
+
+  * Merge remote-tracking branch 'origin/indigo_release_candidate' into indigo_dev
+  * Merge pull request #164 <https://github.com/ipa320/cob_control/issues/164> from ipa-fxm/update_maintainer
+    update maintainer
+  * update maintainer
+  * Merge pull request #159 <https://github.com/ipa320/cob_control/issues/159> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * use license apache 2.0
+  * Contributors: Felix Messmer, ipa-fxm, ipa-uhr-mk
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-indigo-cob-control (0.6.15-0trusty) trusty; urgency=high
+
+  * manually fix changelog
+  * Contributors: ipa-fxm
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.14-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.13-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.12-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.11-0trusty) trusty; urgency=high
+
+  * introducing cob_control_msgs
+  * add cob_undercarriage_ctrl_node to meta-package
+  * Contributors: Felix Messmer, ipa-fxm
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.10-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.9-0trusty) trusty; urgency=high
+
+  * migrate to package format 2
+  * sort dependencies
+  * review dependencies
+  * add missing run_depends to meta-package
+  * Contributors: ipa-fxm
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Mon, 24 Aug 2015 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.8-0trusty) trusty; urgency=high
+
+  * merge with release candidate
+  * package renaming: cob_path_broadcaster -> cob_cartesian_controller
+  * Contributors: ipa-fxm
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.7-0trusty) trusty; urgency=high
+
+  * update meta-package
+  * Contributors: ipa-fxm
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-indigo-cob-control (0.6.6-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Wed, 17 Dec 2014 23:00:00 -0000
+
+ros-indigo-cob-control (0.6.5-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Wed, 17 Dec 2014 23:00:00 -0000
+
+ros-indigo-cob-control (0.6.4-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Mon, 15 Dec 2014 23:00:00 -0000
+
+ros-indigo-cob-control (0.6.3-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Mon, 15 Dec 2014 23:00:00 -0000
+
+ros-indigo-cob-control (0.6.2-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sun, 14 Dec 2014 23:00:00 -0000
+
+ros-indigo-cob-control (0.6.1-0trusty) trusty; urgency=high
+
+
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Sun, 21 Sep 2014 22:00:00 -0000
+
+ros-indigo-cob-control (0.5.4-0trusty) trusty; urgency=high
+
+  * added meta-package
+  * Contributors: ipa-fxm
+
+ -- Florian Weisshardt <fmw@ipa.fhg.de>  Mon, 25 Aug 2014 22:00:00 -0000
+
+
