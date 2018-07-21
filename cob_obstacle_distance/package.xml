@@ -1,10 +1,10 @@
 <package format="2">
   <name>cob_obstacle_distance</name>
-  <version>0.6.17</version>
+  <version>0.7.1</version>
   <description>The cob_obstacle_distance package</description>
 
-  <maintainer email="felixmessmer@gmail.com">Felix Messmer</maintainer>
   <author email="fxm-mb@ipa.fhg.de">Marco Bezzon</author>
+  <maintainer email="fxm@ipa.fhg.de">Felix Messmer</maintainer>
 
   <license>Apache 2.0</license>
 
@@ -18,7 +18,7 @@
   <depend>dynamic_reconfigure</depend>
   <depend>eigen_conversions</depend>
   <depend>eigen</depend>
-  <depend>fcl</depend>
+  <depend>libfcl-dev</depend>
   <depend>geometry_msgs</depend>
   <depend>kdl_conversions</depend>
   <depend>kdl_parser</depend>

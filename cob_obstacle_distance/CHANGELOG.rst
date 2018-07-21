@@ -2,18 +2,39 @@
 Changelog for package cob_obstacle_distance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.6.17 (2018-07-21)
--------------------
-* update maintainer
-* Contributors: fmessmer
-
-0.6.16 (2018-01-07)
--------------------
-* Merge remote-tracking branch 'origin/indigo_release_candidate' into indigo_dev
+0.7.1 (2018-01-07)
+------------------
+* Merge remote-tracking branch 'origin/kinetic_release_candidate' into kinetic_dev
+* Merge pull request `#169 <https://github.com/ipa320/cob_control/issues/169>`_ from ipa-fxm/kinetic_updates_indigo
+  Kinetic updates indigo
+* Merge branch 'indigo_dev' of github.com:ipa320/cob_control into kinetic_dev
+  Conflicts:
+  .travis.yml
 * Merge pull request `#159 <https://github.com/ipa320/cob_control/issues/159>`_ from ipa-fxm/APACHE_license
   use license apache 2.0
 * use license apache 2.0
 * Contributors: Felix Messmer, ipa-fxm, ipa-uhr-mk
+
+0.7.0 (2017-07-18)
+------------------
+* Merge branch 'indigo_release_candidate' into kinetic_release_candidate
+* Merge branch 'indigo_dev' of github.com:ipa320/cob_control into multi_distro_travis_kinetic
+  Conflicts:
+  .travis.yml
+  README.md
+* [kinetic] migration (`#115 <https://github.com/ipa320/cob_control/issues/115>`_)
+  * [kinetic] find package Eigen3 instead of Eigen
+  * [kinetic] switched from fcl to libfcl-dev dependency
+  * ignore cob_obstacle_distance for now
+  * [kinetic] use industrial_ci for travis
+  * [kinetic] use industrial_cis ipa320 fork & notify on_success only on change
+  * fixed fcl dependency
+  * new fcl version switched from boost::shared to std::shared
+  * whitelist package
+  * use ros-industrials fork
+  * cleaned up travis.yml
+* Added Eigen3 Indigo/Kinetic compatibility
+* Contributors: Benjamin Maidel, Denis Štogl, Richard Bormann, ipa-fxm
 
 0.6.15 (2017-07-18)
 -------------------

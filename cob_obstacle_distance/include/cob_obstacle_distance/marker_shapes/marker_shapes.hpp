@@ -42,7 +42,7 @@ class MarkerShape : public IMarkerShape
 {
     private:
         FclMarkerConverter<T> fcl_marker_converter_;
-        boost::shared_ptr<BVH_RSS_t> ptr_fcl_bvh_;
+        std::shared_ptr<BVH_RSS_t> ptr_fcl_bvh_;
 
         void init(const std::string& root_frame, double x, double y, double z,
                   double quat_x, double quat_y, double quat_z, double quat_w,
@@ -107,7 +107,7 @@ template <>
 class MarkerShape<BVH_RSS_t> : public IMarkerShape
 {
     private:
-        boost::shared_ptr<BVH_RSS_t> ptr_fcl_bvh_;
+        std::shared_ptr<BVH_RSS_t> ptr_fcl_bvh_;
 
         void init(const std::string& root_frame, const std::string& mesh_resource, double x, double y, double z,
                   double quat_x, double quat_y, double quat_z, double quat_w,
