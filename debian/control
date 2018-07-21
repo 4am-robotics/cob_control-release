@@ -1,0 +1,13 @@
+Source: ros-indigo-cob-footprint-observer
+Section: misc
+Priority: extra
+Maintainer: Felipe Garcia Lopez <flg@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-tf
+Homepage: http://ros.org/wiki/cob_footprint_observer
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cob-footprint-observer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-tf
+Description: The cob_footprint_observer package adjusts the footprint of the robot based on the setup (e.g.
+ arm and/or tray).
