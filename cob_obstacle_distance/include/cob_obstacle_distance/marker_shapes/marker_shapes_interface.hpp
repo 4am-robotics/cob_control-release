@@ -65,7 +65,7 @@ class IMarkerShape
 };
 /* END IMarkerShape *********************************************************************************************/
 
-typedef std::shared_ptr< IMarkerShape > PtrIMarkerShape_t;
+typedef boost::shared_ptr< IMarkerShape > PtrIMarkerShape_t;
 typedef fcl::BVHModel<fcl::RSS> BVH_RSS_t;
 
 #endif /* MARKER_SHAPES_INTERFACE_HPP_ */

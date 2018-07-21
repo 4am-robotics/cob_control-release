@@ -2,14 +2,22 @@
 Changelog for package cob_omni_drive_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.1 (2018-01-07)
-------------------
-* Merge remote-tracking branch 'origin/kinetic_release_candidate' into kinetic_dev
-* Merge pull request `#169 <https://github.com/ipa320/cob_control/issues/169>`_ from ipa-fxm/kinetic_updates_indigo
-  Kinetic updates indigo
-* Merge branch 'indigo_dev' of github.com:ipa320/cob_control into kinetic_dev
-  Conflicts:
-  .travis.yml
+0.6.17 (2018-07-21)
+-------------------
+* update maintainer
+* Merge pull request `#178 <https://github.com/ipa320/cob_control/issues/178>`_ from benmaidel/fix/wheel_transform_indigo
+  fix wheel transformation from urdf (indigo_dev)
+* user robotmodel root link for wheel transformation
+* fixed tf2 includes
+* read whole transformation chain between wheel and base_link
+* Merge pull request `#185 <https://github.com/ipa320/cob_control/issues/185>`_ from ipa-fxm/indigo/fix/max_wheel_rate_from_urdf
+  read max_wheel_rates from urdf
+* read max_wheel_rates from urdf
+* Contributors: Benjamin Maidel, Felix Messmer, fmessmer, ipa-fxm
+
+0.6.16 (2018-01-07)
+-------------------
+* Merge remote-tracking branch 'origin/indigo_release_candidate' into indigo_dev
 * Merge pull request `#164 <https://github.com/ipa320/cob_control/issues/164>`_ from ipa-fxm/update_maintainer
   update maintainer
 * update maintainer
@@ -17,9 +25,6 @@ Changelog for package cob_omni_drive_controller
   use license apache 2.0
 * use license apache 2.0
 * Contributors: Felix Messmer, ipa-fxm, ipa-uhr-mk
-
-0.7.0 (2017-07-18)
-------------------
 
 0.6.15 (2017-07-18)
 -------------------
