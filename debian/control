@@ -1,0 +1,12 @@
+Source: ros-indigo-cob-omni-drive-controller
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-indigo-angles, ros-indigo-catkin, ros-indigo-controller-interface, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-hardware-interface, ros-indigo-message-generation, ros-indigo-nav-msgs, ros-indigo-realtime-tools, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-tf, ros-indigo-tf2, ros-indigo-urdf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-cob-omni-drive-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-indigo-angles, ros-indigo-controller-interface, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-hardware-interface, ros-indigo-message-runtime, ros-indigo-nav-msgs, ros-indigo-realtime-tools, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-std-srvs, ros-indigo-tf, ros-indigo-tf2, ros-indigo-urdf
+Description: The cob_omni_drive_controller package
