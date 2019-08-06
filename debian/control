@@ -1,0 +1,13 @@
+Source: ros-melodic-cob-twist-controller
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-cob-control-msgs, ros-melodic-cob-srvs, ros-melodic-dynamic-reconfigure, ros-melodic-eigen-conversions, ros-melodic-geometry-msgs, ros-melodic-kdl-conversions, ros-melodic-kdl-parser, ros-melodic-nav-msgs, ros-melodic-orocos-kdl, ros-melodic-pluginlib, ros-melodic-roscpp, ros-melodic-roslint, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-tf-conversions, ros-melodic-trajectory-msgs, ros-melodic-urdf, ros-melodic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-twist-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, ros-melodic-cmake-modules, ros-melodic-cob-control-msgs, ros-melodic-cob-frame-tracker, ros-melodic-cob-srvs, ros-melodic-dynamic-reconfigure, ros-melodic-eigen-conversions, ros-melodic-geometry-msgs, ros-melodic-kdl-conversions, ros-melodic-kdl-parser, ros-melodic-nav-msgs, ros-melodic-orocos-kdl, ros-melodic-pluginlib, ros-melodic-robot-state-publisher, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-rviz, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-tf-conversions, ros-melodic-topic-tools, ros-melodic-trajectory-msgs, ros-melodic-urdf, ros-melodic-visualization-msgs, ros-melodic-xacro
+Description: The main purpose of the cob_twist_controller is to convert target twists into joint velocities.
+ Therefore it makes use of several implemented inverse kinematics approaches at the first order differential level. The inverse differential kinematics solver considers kinematic chain extensions, singularity robustness, redundancy resolution and priority-based methods. To avoid hardware destruction there is a limiter interface active as well. Via parameter server users can dynamically configure the solving strategy.
