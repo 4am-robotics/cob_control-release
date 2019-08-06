@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-obstacle-distance
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libassimp-dev, libboost-all-dev, libeigen3-dev, libfcl-dev, pkg-config, ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-cob-control-msgs, ros-melodic-cob-srvs, ros-melodic-dynamic-reconfigure, ros-melodic-eigen-conversions, ros-melodic-geometry-msgs, ros-melodic-kdl-conversions, ros-melodic-kdl-parser, ros-melodic-moveit-msgs, ros-melodic-orocos-kdl, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-roslint, ros-melodic-sensor-msgs, ros-melodic-shape-msgs, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-tf-conversions, ros-melodic-urdf, ros-melodic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-obstacle-distance
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libassimp-dev, libboost-all-dev, libeigen3-dev, libfcl-dev, pkg-config, ros-melodic-cmake-modules, ros-melodic-cob-control-msgs, ros-melodic-cob-srvs, ros-melodic-dynamic-reconfigure, ros-melodic-eigen-conversions, ros-melodic-geometry-msgs, ros-melodic-interactive-markers, ros-melodic-joint-state-publisher, ros-melodic-kdl-conversions, ros-melodic-kdl-parser, ros-melodic-moveit-msgs, ros-melodic-orocos-kdl, ros-melodic-robot-state-publisher, ros-melodic-roscpp, ros-melodic-roslib, ros-melodic-roslint, ros-melodic-rospy, ros-melodic-rviz, ros-melodic-sensor-msgs, ros-melodic-shape-msgs, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-tf-conversions, ros-melodic-urdf, ros-melodic-visualization-msgs, ros-melodic-xacro
+Description: The cob_obstacle_distance package
