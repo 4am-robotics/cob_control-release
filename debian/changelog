@@ -1,0 +1,296 @@
+ros-kinetic-cob-frame-tracker (0.7.8-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 08 Aug 2019 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.7.7-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Mon, 05 Aug 2019 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.7.6-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 06 Jun 2019 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.7.5-1xenial) xenial; urgency=high
+
+  * Merge pull request #206 <https://github.com/ipa320/cob_control/issues/206> from fmessmer/improve_lookat_extension
+    improve lookat extension
+  * do not start lookat if KinematicExtension service failed
+  * Contributors: Felix Messmer, fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Sun, 19 May 2019 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.7.4-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Thu, 04 Apr 2019 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.7.3-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Wed, 13 Mar 2019 23:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.7.2-1xenial) xenial; urgency=high
+
+  * update maintainer
+  * Contributors: fmessmer
+
+ -- Felix Messmer <felixmessmer@gmail.com>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.7.1-1xenial) xenial; urgency=high
+
+  * Merge remote-tracking branch 'origin/kinetic_release_candidate' into kinetic_dev
+  * Merge pull request #169 <https://github.com/ipa320/cob_control/issues/169> from ipa-fxm/kinetic_updates_indigo
+    Kinetic updates indigo
+  * Merge branch 'indigo_dev' of github.com:ipa320/cob_control into kinetic_dev
+    Conflicts:
+    .travis.yml
+  * Merge pull request #168 <https://github.com/ipa320/cob_control/issues/168> from ipa-aep/bugfix/checkInfinitesimalTwist
+    Bugfix/check infinitesimal twist
+  * fix wrong axes bug in Infinitesimal distance check
+  * add rotational distance computation to abortion criteria
+  * Merge pull request #159 <https://github.com/ipa320/cob_control/issues/159> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * Merge pull request #160 <https://github.com/ipa320/cob_control/issues/160> from ipa-aep/feature/frametracker_pid_debugging
+    add publisher for controller error
+  * remove terminal output of period
+  * add publisher for controller error
+  * use license apache 2.0
+  * Contributors: Alexander Pekarovskiy, Felix Messmer, ipa-fxm, ipa-uhr-mk
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.7.0-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.15-1xenial) xenial; urgency=high
+
+  * Merge pull request #122 <https://github.com/ipa320/cob_control/issues/122> from ipa-fxm/indigo_roslint
+    roslint some packages
+  * starting to roslint some packages
+  * manually fix changelog
+  * Contributors: Nadia Hammoudeh García, ipa-fxm
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.14-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.13-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.12-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.11-1xenial) xenial; urgency=high
+
+  * add frameExists check to FrameTracker
+  * updateMarker on startLookat
+  * cleanup roslint
+  * introduce cfg-parameter enable_abortion_checking
+  * Added waitForTransform in the getTransform function.. It threw an transform exception
+  * Merge branch 'refactor_profile_generator' of github.com:ipa-fxm-cm/cob_control into test_new_cartesian_controller
+    Conflicts:
+    cob_frame_tracker/src/cob_frame_tracker.cpp
+  * parameterizable scaling_factor
+  * Linear interpolation works fine now. There's still a bug in quaternion interpolation.
+  * only reset lookat extension
+  * prepare interactive_frame_target for being used with lookat
+  * prepare frame_tracker for being used with lookat
+  * constant publish rate
+  * working on log output
+  * parameterizable marker_scale
+  * re-activate publishHoldTwist, fix typo
+  * publish ZeroTwist, root/tip frame selection
+  * introduce scaling_factor and dead_man
+  * simple spacenav commander
+  * temporarily undo publishHoldTwist
+  * Contributors: Marco Bezzon, ipa-fxm, ipa-fxm-cm
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.10-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.9-1xenial) xenial; urgency=high
+
+  * Corrections integrated from PR: [WIP] Finalizing/Testing of TwistController features (#51 <https://github.com/ipa-fxm/cob_control/issues/51>). Renaming from frame_to_collision to link_to_collision.
+  * 
+    
+      * Made some changes for test. - Decreased Duration time for markers. - Corrected pose update for self collision check frames. - Added new scripts.
+    
+  * boost revision
+  * Some preparations for test: IMarker smaller, Alpha settings, More scripts. Default value for Frame Tracker params.
+  * 
+    
+      * Added functionality to hold twist in case of deviation of cart. distance gets to large.
+    
+  * add actionlib
+  * explicit dependency to boost
+  * more fixes for migration afer merge
+  * remove trailing whitespaces
+  * migrate to package format 2
+  * review dependencies
+  * updates from ipa320
+  * cleanup
+  * sort dependencies
+  * review dependencies
+  * Fixed bugs in cartesian_controller: waitFor last available transform else extrapolation error; send always a new constructed StampedTransform instead of using an already existent one, else end-effector is decoupled from manipulator and other confusing things happen...; Added responsible node to tf error msg.
+  * code styling cob_frame_tracker
+  * Implemented proposals from discussion https://github.com/ipa320/cob_control/pull/38. Removed tabs. Corrected node handles.
+  * Removed tracking error publisher / subscriber and removed additional p gain for PD-Control (already done in FrameTracker with PID controller)
+  * bug fix
+  * 
+    
+      * Added a publisher for the tracking errors to send them to cob_twist_controller
+      * Added a subscriber to collect the errors and put them to the solver.
+      * Added a parameter to set the p gain. If 0.0 old behavior is active (default value).
+    
+  * Contributors: ipa-fxm, ipa-fxm-cm, ipa-fxm-mb
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Mon, 24 Aug 2015 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.8-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.7-1xenial) xenial; urgency=high
+
+  * restructure namespaces for parameters of cartesian controllers
+  * complete revision of frame_tracker structure and action server
+  * cleanup/replace cob_srvs
+  * beautify CMakeLists
+  * cleanup dependencies
+  * use individual pid parameters to reduce output
+  * remove obsolet files
+  * proper expert interaction mode
+  * delete obsolete files
+  * merged running
+  * frame_tracker after merge
+  * merge with fxm - not working
+  * remove obsolete files
+  * last update
+  * attach menu to marker, beautify
+  * MOVE_ROTATE_3D for interactive markers
+  * update before creating new branch
+  * gitignore
+  * gitignore
+  * update working frame_tracker
+  * correct cmake
+  * update after merge
+  * merge with fm-cm-ce
+  * cleaning up
+  * more efficient c++ version of interactive_frame_target
+  * diff twist calc
+  * update frame_tracker
+  * frame_tracker_new
+  * Merge branch 'indigo_dev' of https://github.com/ipa320/cob_control into fm_cm_merged_new
+  * new rqt_features
+  * test
+  * cleaned up again
+  * Cleaned up
+  * Contributors: Christian Ehrmann, ipa-fxm, ipa-fxm-cm
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.6-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Wed, 17 Dec 2014 23:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.5-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Wed, 17 Dec 2014 23:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.4-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Mon, 15 Dec 2014 23:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.3-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Mon, 15 Dec 2014 23:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.2-1xenial) xenial; urgency=high
+
+  * adapt namespaces for cartesian_controller to new structure
+  * merge_cm
+  * temporary commit
+  * changes in initialization
+  * temporarily revert to non-feedforward pid_controllers
+  * null-space syncMM
+  * Add PID for each translatorial Axes
+  * Add PID for each translatorial Axes
+  * Contributors: ipa-fxm, ipa-fxm-cm
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 14 Dec 2014 23:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.1-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 21 Sep 2014 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.6.0-1xenial) xenial; urgency=high
+
+  * update version number
+  * update changelog
+  * beautify package xml and CMakeLists
+  * add missing dependencies
+  * update interactive marker when not tracking
+  * introducing PID for frame_tracker, generalization of interactive_frame_target
+  * new menu entry: reset_tracking
+  * make frame_tracker and interactive_marker more generic to be used with non-lookat twist_control
+  * moved frame_tracker to separate package
+  * update interactive marker when not tracking
+  * introducing PID for frame_tracker, generalization of interactive_frame_target
+  * new menu entry: reset_tracking
+  * make frame_tracker and interactive_marker more generic to be used with non-lookat twist_control
+  * moved frame_tracker to separate package
+  * Contributors: Felix Messmer, Florian Weisshardt, ipa-fxm
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Wed, 17 Sep 2014 22:00:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.5.4-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Tue, 26 Aug 2014 08:26:00 -0000
+
+ros-kinetic-cob-frame-tracker (0.1.0-1xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Tue, 26 Aug 2014 08:23:00 -0000
+
+
