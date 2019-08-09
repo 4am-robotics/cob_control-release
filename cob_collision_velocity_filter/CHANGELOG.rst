@@ -2,6 +2,12 @@
 Changelog for package cob_collision_velocity_filter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.8.0 (2019-08-09)
+------------------
+
+0.7.8 (2019-08-09)
+------------------
+
 0.7.7 (2019-08-06)
 ------------------
 * Merge pull request `#208 <https://github.com/ipa320/cob_control/issues/208>`_ from ipa-jba/melodic_dev
