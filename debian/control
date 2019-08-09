@@ -1,0 +1,13 @@
+Source: ros-melodic-cob-footprint-observer
+Section: misc
+Priority: extra
+Maintainer: Felipe Garcia Lopez <flg@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-tf
+Homepage: http://ros.org/wiki/cob_footprint_observer
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-footprint-observer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-tf
+Description: The cob_footprint_observer package adjusts the footprint of the robot based on the setup (e.g.
+ arm and/or tray).
