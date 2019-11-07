@@ -1,0 +1,13 @@
+Source: ros-kinetic-cob-twist-controller
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-cob-control-msgs, ros-kinetic-cob-srvs, ros-kinetic-dynamic-reconfigure, ros-kinetic-eigen-conversions, ros-kinetic-geometry-msgs, ros-kinetic-kdl-conversions, ros-kinetic-kdl-parser, ros-kinetic-nav-msgs, ros-kinetic-orocos-kdl, ros-kinetic-pluginlib, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-tf-conversions, ros-kinetic-trajectory-msgs, ros-kinetic-urdf, ros-kinetic-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-twist-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, ros-kinetic-cmake-modules, ros-kinetic-cob-control-msgs, ros-kinetic-cob-frame-tracker, ros-kinetic-cob-srvs, ros-kinetic-dynamic-reconfigure, ros-kinetic-eigen-conversions, ros-kinetic-geometry-msgs, ros-kinetic-kdl-conversions, ros-kinetic-kdl-parser, ros-kinetic-nav-msgs, ros-kinetic-orocos-kdl, ros-kinetic-pluginlib, ros-kinetic-robot-state-publisher, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-rviz, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-tf-conversions, ros-kinetic-topic-tools, ros-kinetic-trajectory-msgs, ros-kinetic-urdf, ros-kinetic-visualization-msgs, ros-kinetic-xacro
+Description: The main purpose of the cob_twist_controller is to convert target twists into joint velocities.
+ Therefore it makes use of several implemented inverse kinematics approaches at the first order differential level. The inverse differential kinematics solver considers kinematic chain extensions, singularity robustness, redundancy resolution and priority-based methods. To avoid hardware destruction there is a limiter interface active as well. Via parameter server users can dynamically configure the solving strategy.
