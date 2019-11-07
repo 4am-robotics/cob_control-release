@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-control
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/cob_control
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cob-base-controller-utils, ros-kinetic-cob-base-velocity-smoother, ros-kinetic-cob-cartesian-controller, ros-kinetic-cob-collision-velocity-filter, ros-kinetic-cob-control-mode-adapter, ros-kinetic-cob-control-msgs, ros-kinetic-cob-footprint-observer, ros-kinetic-cob-frame-tracker, ros-kinetic-cob-hardware-emulation, ros-kinetic-cob-model-identifier, ros-kinetic-cob-obstacle-distance, ros-kinetic-cob-omni-drive-controller, ros-kinetic-cob-trajectory-controller, ros-kinetic-cob-tricycle-controller, ros-kinetic-cob-twist-controller
+Description: cob_control meta-package
