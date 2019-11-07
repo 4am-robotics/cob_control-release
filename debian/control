@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-control-mode-adapter
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kinetic-catkin, ros-kinetic-controller-manager-msgs, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-control-mode-adapter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kinetic-controller-manager-msgs, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-std-msgs
+Description: The cob_control_mode_adapter package
