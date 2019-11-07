@@ -1,0 +1,220 @@
+ros-melodic-cob-footprint-observer (0.8.1-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Wed, 06 Nov 2019 23:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.8.0-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Thu, 08 Aug 2019 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.7.8-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Thu, 08 Aug 2019 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.7.7-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Mon, 05 Aug 2019 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.7.6-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Thu, 06 Jun 2019 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.7.5-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Sun, 19 May 2019 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.7.4-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Thu, 04 Apr 2019 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.7.3-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Wed, 13 Mar 2019 23:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.7.2-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.7.1-1stretch) stretch; urgency=high
+
+  * Merge remote-tracking branch 'origin/kinetic_release_candidate' into kinetic_dev
+  * Merge pull request #169 <https://github.com/ipa320/cob_control/issues/169> from ipa-fxm/kinetic_updates_indigo
+    Kinetic updates indigo
+  * Merge branch 'indigo_dev' of github.com:ipa320/cob_control into kinetic_dev
+    Conflicts:
+    .travis.yml
+  * Merge pull request #164 <https://github.com/ipa320/cob_control/issues/164> from ipa-fxm/update_maintainer
+    update maintainer
+  * update maintainer
+  * Merge pull request #159 <https://github.com/ipa320/cob_control/issues/159> from ipa-fxm/APACHE_license
+    use license apache 2.0
+  * use license apache 2.0
+  * Contributors: Felix Messmer, ipa-fxm, ipa-uhr-mk
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.7.0-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.15-1stretch) stretch; urgency=high
+
+  * manually fix changelog
+  * Contributors: ipa-fxm
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Mon, 17 Jul 2017 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.14-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.13-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.12-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Sun, 09 Oct 2016 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.11-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.10-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.9-1stretch) stretch; urgency=high
+
+  * boost revision
+  * do not install headers in executable-only packages
+  * explicit dependency to boost
+  * explicit dependency to boost
+  * remove trailing whitespaces
+  * migrate to package format 2
+  * sort dependencies
+  * review dependencies
+  * Contributors: ipa-fxm
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Mon, 24 Aug 2015 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.8-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.7-1stretch) stretch; urgency=high
+
+  * beautify CMakeLists
+  * Contributors: ipa-fxm
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.6-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Wed, 17 Dec 2014 23:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.5-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Wed, 17 Dec 2014 23:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.4-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Mon, 15 Dec 2014 23:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.3-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Mon, 15 Dec 2014 23:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.2-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Sun, 14 Dec 2014 23:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.6.1-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Sun, 21 Sep 2014 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.5.3-1stretch) stretch; urgency=high
+
+  * install tags
+  * Contributors: ipa-fxm
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Sun, 30 Mar 2014 22:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.5.2-1stretch) stretch; urgency=high
+
+
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Wed, 19 Mar 2014 23:00:00 -0000
+
+ros-melodic-cob-footprint-observer (0.5.1-1stretch) stretch; urgency=high
+
+  * add definitions to get rid of compiler warning
+  * cob_footprint_observer: introduce epsilon for adjustment and get rid of annoying warning message
+  * changes for hydro
+  * cleaned up CMakeLists and added install directives
+  * further modifications for catkin, now everything is compiling and linking
+  * futher include and linkpath modifications
+  * add message dependencies
+  * compiling but still some linker errors
+  * Second catkinization push
+  * First catkinization, still need to update some CMakeLists.txt
+  * remove param farthest_frame from footprint observer
+  * change rate of footprint_observer
+  * changes for fuerte compatibility
+  * remove unnecessary roslaunch check
+  * remove unnecessary roslaunch check
+  * change documentation
+  * merge launch files and move configs to same folder
+  * put GetFootprint service into footprint observer
+    instead of SetFootprint service in collision velocity filter
+    fix namespace problems
+  * fix namespace problems
+  * moved safe base movement to driver stack
+  * Contributors: Alexander Bubeck, Frederik Hegger, abubeck, ipa-fmw, ipa-mig
+
+ -- Felipe Garcia Lopez <flg@ipa.fhg.de>  Wed, 19 Mar 2014 23:00:00 -0000
+
+
