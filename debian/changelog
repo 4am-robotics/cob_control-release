@@ -1,0 +1,196 @@
+ros-melodic-cob-mecanum-controller (0.8.10-1stretch) stretch; urgency=high
+
+  * Merge pull request #230 <https://github.com/ipa320/cob_control/issues/230> from ipa-jba/feature/melodic/raw-mini
+    [melodic] add a mecanum controller
+  * nitpick
+  * un-c++14ify
+  * unify version
+  * use <> for include
+  * catkin lint problems fixed
+  * apache license
+  * add a mecanum controller
+  * Contributors: Felix Messmer, Jannik Abbenseth, fmessmer
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Tue, 17 Mar 2020 23:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.8.1-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Thu, 07 Nov 2019 16:18:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.8.0-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Fri, 09 Aug 2019 11:44:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.9-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Thu, 07 Nov 2019 09:58:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.8-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Fri, 09 Aug 2019 10:15:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.7-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Mon, 05 Aug 2019 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.6-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Thu, 06 Jun 2019 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.5-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Sun, 19 May 2019 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.4-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Thu, 04 Apr 2019 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.3-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Wed, 13 Mar 2019 23:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.2-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Fri, 20 Jul 2018 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.1-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Sat, 06 Jan 2018 23:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.7.0-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Tue, 18 Jul 2017 08:50:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.15-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Tue, 18 Jul 2017 08:30:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.14-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Mon, 10 Oct 2016 10:20:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.13-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Mon, 10 Oct 2016 09:46:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.12-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Mon, 10 Oct 2016 09:45:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.11-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.10-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Sun, 30 Aug 2015 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.9-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Mon, 24 Aug 2015 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.8-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Sun, 21 Jun 2015 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.7-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Tue, 16 Jun 2015 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.6-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Thu, 18 Dec 2014 09:49:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.5-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Thu, 18 Dec 2014 08:08:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.4-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Tue, 16 Dec 2014 13:10:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.3-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Tue, 16 Dec 2014 13:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.2-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Sun, 14 Dec 2014 23:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.1-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Sun, 21 Sep 2014 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.6.0-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Wed, 17 Sep 2014 22:00:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.5.4-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Tue, 26 Aug 2014 08:26:00 -0000
+
+ros-melodic-cob-mecanum-controller (0.1.0-1stretch) stretch; urgency=high
+
+
+
+ -- Jannik Abbenseth <jba@ipa.fhg.de>  Tue, 26 Aug 2014 08:23:00 -0000
+
+
