@@ -1,3 +1,43 @@
+## cob_control (kinetic) - 0.7.10-1
+
+The packages in the `cob_control` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release cob_control --rosdistro kinetic` on `Wed, 18 Mar 2020 11:56:50 -0000`
+
+These packages were released:
+- `cob_base_controller_utils`
+- `cob_base_velocity_smoother`
+- `cob_cartesian_controller`
+- `cob_collision_velocity_filter`
+- `cob_control`
+- `cob_control_mode_adapter`
+- `cob_control_msgs`
+- `cob_footprint_observer`
+- `cob_frame_tracker`
+- `cob_hardware_emulation`
+- `cob_mecanum_controller`
+- `cob_model_identifier`
+- `cob_obstacle_distance`
+- `cob_omni_drive_controller`
+- `cob_trajectory_controller`
+- `cob_tricycle_controller`
+- `cob_twist_controller`
+
+Version of package(s) in repository `cob_control`:
+
+- upstream repository: https://github.com/ipa320/cob_control.git
+- release repository: https://github.com/ipa320/cob_control-release.git
+- rosdistro version: `0.7.9-1`
+- old version: `0.7.9-1`
+- new version: `0.7.10-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.3`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## cob_control (melodic) - 0.8.1-1
 
 The packages in the `cob_control` repository were released into the `melodic` distro by running `/usr/bin/bloom-release cob_control --rosdistro melodic` on `Thu, 07 Nov 2019 16:28:39 -0000`
