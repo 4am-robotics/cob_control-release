@@ -2,19 +2,22 @@
 Changelog for package cob_cartesian_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.10 (2020-03-18)
+0.8.10 (2020-03-18)
 -------------------
-* Merge pull request `#227 <https://github.com/ipa320/cob_control/issues/227>`_ from LoyVanBeek/feature/python3_compatibility
-  [ci_updates] pylint + Python3 compatibility - kinetic
+* Merge pull request `#228 <https://github.com/ipa320/cob_control/issues/228>`_ from fmessmer/feature/python3_compatibility_melodic
+  [ci_updates] pylint + Python3 compatibility - melodic
 * disable simple_script_server import error
 * fix modules
 * fix pylint errors
-* Merge pull request `#225 <https://github.com/ipa320/cob_control/issues/225>`_ from fmessmer/ci_updates_kinetic
-  [travis] ci updates - kinetic
+* Merge pull request `#226 <https://github.com/ipa320/cob_control/issues/226>`_ from fmessmer/ci_updates_melodic
+  [travis] ci updates - melodic
 * catkin_lint fixes
 * Contributors: Felix Messmer, fmessmer
 
-0.7.9 (2019-11-07)
+0.8.1 (2019-11-07)
+------------------
+
+0.8.0 (2019-08-09)
 ------------------
 
 0.7.8 (2019-08-09)

@@ -2,19 +2,21 @@
 Changelog for package cob_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.10 (2020-03-18)
+0.8.10 (2020-03-18)
 -------------------
-* Merge pull request `#229 <https://github.com/ipa320/cob_control/issues/229>`_ from ipa-jba/feature/raw-mini
-  [kinetic] add a mecanum controller
+* Merge pull request `#230 <https://github.com/ipa320/cob_control/issues/230>`_ from ipa-jba/feature/melodic/raw-mini
+  [melodic] add a mecanum controller
 * add mecanum controller to cob_control
 * Contributors: Felix Messmer, Jannik Abbenseth
 
-0.7.9 (2019-11-07)
+0.8.1 (2019-11-07)
 ------------------
-* Merge pull request `#211 <https://github.com/ipa320/cob_control/issues/211>`_ from ipa320/emulator
-  add hardware_emulation package
+* Merge pull request `#213 <https://github.com/ipa320/cob_control/issues/213>`_ from fmessmer/emulator
+  [melodic] add cob_hardware_emulation
 * add cob_hardware_emulation to meta package
-* Contributors: Felix Messmer, floweisshardt
+
+0.8.0 (2019-08-09)
+------------------
 
 0.7.8 (2019-08-09)
 ------------------

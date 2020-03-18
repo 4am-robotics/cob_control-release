@@ -2,10 +2,10 @@
 Changelog for package cob_mecanum_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.7.10 (2020-03-18)
+0.8.10 (2020-03-18)
 -------------------
-* Merge pull request `#229 <https://github.com/ipa320/cob_control/issues/229>`_ from ipa-jba/feature/raw-mini
-  [kinetic] add a mecanum controller
+* Merge pull request `#230 <https://github.com/ipa320/cob_control/issues/230>`_ from ipa-jba/feature/melodic/raw-mini
+  [melodic] add a mecanum controller
 * nitpick
 * un-c++14ify
 * unify version
@@ -15,11 +15,17 @@ Changelog for package cob_mecanum_controller
 * add a mecanum controller
 * Contributors: Felix Messmer, Jannik Abbenseth, fmessmer
 
-0.7.9 (2019-11-07)
-------------------
+0.8.1 (2019-11-07 17:18)
+------------------------
 
-0.7.8 (2019-08-09)
-------------------
+0.8.0 (2019-08-09 13:44)
+------------------------
+
+0.7.9 (2019-11-07 10:58)
+------------------------
+
+0.7.8 (2019-08-09 12:15)
+------------------------
 
 0.7.7 (2019-08-06)
 ------------------
