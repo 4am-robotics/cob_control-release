@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-collision-velocity-filter
+Section: misc
+Priority: optional
+Maintainer: Felipe Garcia Lopez <flg@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-melodic-catkin, ros-melodic-cob-footprint-observer, ros-melodic-costmap-2d, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-tf, ros-melodic-tf2-ros, ros-melodic-visualization-msgs
+Homepage: http://ros.org/wiki/cob_collision_velocity_filter
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-collision-velocity-filter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-melodic-cob-footprint-observer, ros-melodic-costmap-2d, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-tf, ros-melodic-tf2-ros, ros-melodic-visualization-msgs
+Description: The cob_collision_velocity_filter package is a package for collision avoidance using teleoperation.
