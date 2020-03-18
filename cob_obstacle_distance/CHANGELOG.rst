@@ -2,15 +2,15 @@
 Changelog for package cob_obstacle_distance
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.1 (2019-11-07)
-------------------
-
-0.8.0 (2019-08-09)
-------------------
-* Merge pull request `#209 <https://github.com/ipa320/cob_control/issues/209>`_ from fmessmer/release_fixes
-  [Melodic] release fixes
-* proper cast of urdf pointer
+0.7.10 (2020-03-18)
+-------------------
+* Merge pull request `#225 <https://github.com/ipa320/cob_control/issues/225>`_ from fmessmer/ci_updates_kinetic
+  [travis] ci updates - kinetic
+* catkin_lint fixes
 * Contributors: Felix Messmer, fmessmer
+
+0.7.9 (2019-11-07)
+------------------
 
 0.7.8 (2019-08-09)
 ------------------
