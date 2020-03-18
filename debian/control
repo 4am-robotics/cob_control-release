@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-hardware-emulation
+Section: misc
+Priority: optional
+Maintainer: Florian Weisshardt <florian.weisshardt@mojin-robotics.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-rosgraph-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-hardware-emulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-control-msgs, ros-kinetic-nav-msgs, ros-kinetic-roscpp, ros-kinetic-rosgraph-msgs, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-srvs, ros-kinetic-tf-conversions, ros-kinetic-tf2-ros
+Description: The cob_hardware_emulation package provides idealized nodes emulating real robot hardware and/or physics simulation.
