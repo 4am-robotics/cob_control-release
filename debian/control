@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-tricycle-controller
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felix.messmer@mojin-robotics.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kinetic-angles, ros-kinetic-catkin, ros-kinetic-cob-base-controller-utils, ros-kinetic-controller-interface, ros-kinetic-geometry-msgs, ros-kinetic-hardware-interface, ros-kinetic-nav-msgs, ros-kinetic-pluginlib, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-std-srvs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-tricycle-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kinetic-angles, ros-kinetic-cob-base-controller-utils, ros-kinetic-controller-interface, ros-kinetic-geometry-msgs, ros-kinetic-hardware-interface, ros-kinetic-nav-msgs, ros-kinetic-pluginlib, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-std-srvs, ros-kinetic-tf
+Description: The cob_omni_drive_controller package provides a ros_controller plugin for the Care-O-bot tricycle base platform.
