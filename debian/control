@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-model-identifier
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-geometry-msgs, ros-kinetic-kdl-parser, ros-kinetic-orocos-kdl, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-sensor-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-model-identifier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kinetic-cmake-modules, ros-kinetic-geometry-msgs, ros-kinetic-kdl-parser, ros-kinetic-orocos-kdl, ros-kinetic-roscpp, ros-kinetic-roslint, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-std-srvs, ros-kinetic-tf
+Description: The cob_model_identifier package provides nodes to analyse the system response behavior of actuators to optimally tune PID controllers to be used with cob_twist_controller framework.
