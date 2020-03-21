@@ -1,0 +1,13 @@
+Source: ros-kinetic-cob-footprint-observer
+Section: misc
+Priority: optional
+Maintainer: Felipe Garcia Lopez <flg@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-tf
+Homepage: http://ros.org/wiki/cob_footprint_observer
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-footprint-observer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-std-msgs, ros-kinetic-tf
+Description: The cob_footprint_observer package adjusts the footprint of the robot based on the setup (e.g.
+ arm and/or tray).
