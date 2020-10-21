@@ -1,0 +1,12 @@
+Source: ros-noetic-cob-tricycle-controller
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felix.messmer@mojin-robotics.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-noetic-angles, ros-noetic-catkin, ros-noetic-cob-base-controller-utils, ros-noetic-controller-interface, ros-noetic-geometry-msgs, ros-noetic-hardware-interface, ros-noetic-nav-msgs, ros-noetic-pluginlib, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-std-srvs, ros-noetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-tricycle-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-noetic-angles, ros-noetic-cob-base-controller-utils, ros-noetic-controller-interface, ros-noetic-geometry-msgs, ros-noetic-hardware-interface, ros-noetic-nav-msgs, ros-noetic-pluginlib, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-std-srvs, ros-noetic-tf
+Description: The cob_omni_drive_controller package provides a ros_controller plugin for the Care-O-bot tricycle base platform.
