@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-base-velocity-smoother
+Section: misc
+Priority: optional
+Maintainer: Benjamin Maidel <bnm@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-melodic-catkin, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-roslint, ros-melodic-std-msgs
+Homepage: http://ros.org/wiki/cob_base_velocity_smoother
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-base-velocity-smoother
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-melodic-dynamic-reconfigure, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-roslint, ros-melodic-std-msgs
+Description: The 'cob_base_velocity_smoother' reads velocity messages and publishes messages of the same type for &quot;smoothed&quot; velocity to avoid shaking behavior.
