@@ -2,47 +2,57 @@
 Changelog for package cob_hardware_emulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.8.12 (2020-10-21)
+0.7.13 (2021-04-06)
 -------------------
-* Merge pull request `#243 <https://github.com/ipa320/cob_control/issues/243>`_ from fmessmer/test_noetic
-  test noetic
-* Bump CMake version to avoid CMP0048 warning
-* Merge pull request `#244 <https://github.com/ipa320/cob_control/issues/244>`_ from lindemeier/bugfix/length-bug
-  [melodic] bugfix/length-bug
+* Merge pull request `#252 <https://github.com/ipa320/cob_control/issues/252>`_ from floweisshardt/feature/emulator_move_base_kinetic
+  kinetic: add optional move_base interface to base emulator
+* add optional move_base interface to base emulator
+* Merge pull request `#248 <https://github.com/ipa320/cob_control/issues/248>`_ from fmessmer/fix/fjt_emulation_kinetic
+  [kinetic] fix fjt emulation
+* use timer for joint_states
+* skip trajectory points faster than sample_rate
+* introduce sample_rate_hz parameter
+* Merge pull request `#246 <https://github.com/ipa320/cob_control/issues/246>`_ from fmessmer/fix_catkin_lint_kinetic
+  [kinetic] fix catkin_lint
+* fix catkin_lint
+* Contributors: Felix Messmer, Florian Weisshardt, floweisshardt, fmessmer
+
+0.7.12 (2020-10-21)
+-------------------
+* Merge pull request `#245 <https://github.com/ipa320/cob_control/issues/245>`_ from lindemeier/bugfix/length_bug_kinetic
+  [kinetic] bugfix/length-bug
 * sets correct length and checks for length
-* Merge pull request `#240 <https://github.com/ipa320/cob_control/issues/240>`_ from benmaidel/feature/base_emu_reset_odom_melodic
+* Merge pull request `#239 <https://github.com/ipa320/cob_control/issues/239>`_ from benmaidel/feature/base_emu_reset_odom
   reset odometry service for base emulation
 * reset odometry service for base emulation
-* Contributors: Benjamin Maidel, Felix Messmer, fmessmer, tsl
+* Contributors: Benjamin Maidel, Felix Messmer, tsl
 
-0.8.11 (2020-03-21)
+0.7.11 (2020-03-21)
 -------------------
 
-0.8.10 (2020-03-18)
+0.7.10 (2020-03-18)
 -------------------
-* Merge pull request `#236 <https://github.com/ipa320/cob_control/issues/236>`_ from fmessmer/melodic/emulation_clock_cpp
-  [melodic] add emulation_clock publisher - cpp variant
+* Merge pull request `#235 <https://github.com/ipa320/cob_control/issues/235>`_ from fmessmer/kinetic/emulation_clock_cpp
+  [kinetic] add emulation_clock publisher - cpp variant
 * fix boost timer + use dt_ms
 * use boost timer
 * configurable emulation dt
 * add emulation_clock publisher - cpp variant
-* Merge pull request `#234 <https://github.com/ipa320/cob_control/issues/234>`_ from fmessmer/emulation_custom_clock_melodic
-  [melodic] add emulation_clock publisher
+* Merge pull request `#232 <https://github.com/ipa320/cob_control/issues/232>`_ from fmessmer/emulation_custom_clock
+  add emulation_clock publisher
 * implement emulation_clock with timer callback
 * add emulation_clock publisher
-* Merge pull request `#228 <https://github.com/ipa320/cob_control/issues/228>`_ from fmessmer/feature/python3_compatibility_melodic
-  [ci_updates] pylint + Python3 compatibility - melodic
+* Merge pull request `#227 <https://github.com/ipa320/cob_control/issues/227>`_ from LoyVanBeek/feature/python3_compatibility
+  [ci_updates] pylint + Python3 compatibility - kinetic
 * fix pylint errors
 * python3 compatibility via 2to3
-* Merge pull request `#226 <https://github.com/ipa320/cob_control/issues/226>`_ from fmessmer/ci_updates_melodic
-  [travis] ci updates - melodic
+* Merge pull request `#225 <https://github.com/ipa320/cob_control/issues/225>`_ from fmessmer/ci_updates_kinetic
+  [travis] ci updates - kinetic
 * catkin_lint fixes
-* remove outdated script
-* Contributors: Felix Messmer, Loy van Beek, fmessmer
+* Contributors: Felix Messmer, Florian Weisshardt, Loy van Beek, fmessmer
 
-0.8.1 (2019-11-07)
+0.7.9 (2019-11-07)
 ------------------
-* Merge branch 'kinetic_dev' of github.com:ipa320/cob_control into melodic_dev
 * add CHANGELOG for cob_hardware_emulation
 * Merge pull request `#221 <https://github.com/ipa320/cob_control/issues/221>`_ from fmessmer/post_vacation_qa
   [WIP] post vacation qa
@@ -84,9 +94,6 @@ Changelog for package cob_hardware_emulation
   add hardware_emulation package
 * add hardware_emulation package
 * Contributors: Benjamin Maidel, Felix Messmer, Florian Weisshardt, Thomas Lindemeier, floweisshardt, fmessmer
-
-0.8.0 (2019-08-09)
-------------------
 
 0.7.8 (2019-08-09)
 ------------------

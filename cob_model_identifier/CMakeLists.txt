@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 2.8.3)
 project(cob_model_identifier)
 
 find_package(catkin REQUIRED COMPONENTS cmake_modules geometry_msgs kdl_parser roscpp roslint sensor_msgs std_srvs tf)
@@ -12,7 +12,7 @@ add_definitions(${EIGEN3_DEFINITIONS})
 find_package(TinyXML REQUIRED)
 
 catkin_package(
-  CATKIN_DEPENDS geometry_msgs sensor_msgs
+  CATKIN_DEPENDS geometry_msgs roscpp sensor_msgs std_srvs tf
 )
 
 ### BUILD ###

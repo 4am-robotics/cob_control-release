@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 2.8.3)
 project(cob_trajectory_controller)
 
 find_package(catkin REQUIRED COMPONENTS actionlib cob_srvs control_msgs dynamic_reconfigure roscpp sensor_msgs std_msgs std_srvs trajectory_msgs)
@@ -9,7 +9,7 @@ generate_dynamic_reconfigure_options(
 )
 
 catkin_package(
-  CATKIN_DEPENDS control_msgs sensor_msgs std_msgs trajectory_msgs
+  CATKIN_DEPENDS actionlib cob_srvs control_msgs dynamic_reconfigure roscpp sensor_msgs std_msgs std_srvs trajectory_msgs
 )
 
 ### BUILD ###

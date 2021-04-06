@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 2.8.3)
 project(cob_control_mode_adapter)
 
 find_package(catkin REQUIRED COMPONENTS controller_manager_msgs roscpp roslint std_msgs)
@@ -6,7 +6,7 @@ find_package(catkin REQUIRED COMPONENTS controller_manager_msgs roscpp roslint s
 find_package(Boost REQUIRED COMPONENTS thread)
 
 catkin_package(
-  CATKIN_DEPENDS controller_manager_msgs std_msgs
+  CATKIN_DEPENDS controller_manager_msgs roscpp std_msgs
 )
 
 ### BUILD ###

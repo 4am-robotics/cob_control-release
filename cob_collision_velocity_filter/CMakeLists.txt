@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 2.8.3)
 project(cob_collision_velocity_filter)
 
 find_package(catkin REQUIRED COMPONENTS
@@ -25,7 +25,7 @@ endif()
 generate_dynamic_reconfigure_options(cfg/CollisionVelocityFilter.cfg)
 
 catkin_package(
-  CATKIN_DEPENDS geometry_msgs nav_msgs visualization_msgs
+  CATKIN_DEPENDS cob_footprint_observer costmap_2d dynamic_reconfigure geometry_msgs nav_msgs roscpp tf visualization_msgs
 )
 
 ### BUILD ###
