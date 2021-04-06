@@ -1,0 +1,13 @@
+Source: ros-kinetic-cob-trajectory-controller
+Section: misc
+Priority: optional
+Maintainer: Alexander Bubeck <aub@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-catkin, ros-kinetic-cob-srvs, ros-kinetic-control-msgs, ros-kinetic-dynamic-reconfigure, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-trajectory-msgs
+Homepage: http://ros.org/wiki/cob_trajectory_controller
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-trajectory-controller
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-cob-srvs, ros-kinetic-control-msgs, ros-kinetic-dynamic-reconfigure, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-trajectory-msgs
+Description: This package provides a trajectory controller which controlls velocities for a chain of joints.
+ This controller can be used e.g. with [[schunk_powercube_chain]].
