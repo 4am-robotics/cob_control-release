@@ -1,1 +1,1 @@
-{"trim": "", "base": "921100c", "trimbase": "", "parent": "debian/noetic/cob_cartesian_controller", "previous": "08b8000"}
+{"base": "59bf46ad", "parent": "debian/noetic/cob_cartesian_controller", "previous": "518f09bb", "trim": "", "trimbase": ""}
