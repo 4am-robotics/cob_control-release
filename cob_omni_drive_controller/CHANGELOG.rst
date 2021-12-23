@@ -2,6 +2,26 @@
 Changelog for package cob_omni_drive_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.8.17 (2021-12-23)
+-------------------
+
+0.8.16 (2021-10-19)
+-------------------
+* Merge pull request `#259 <https://github.com/ipa320/cob_control/issues/259>`_ from HannesBachter/feature/invert_odom
+  [melodic] Feature/invert odom
+* rename to invert_odom_tf
+* switch frame_id and child_frame_id when invert_odom
+* set invert_odom param to false by default
+* introduce invert_odom param
+* publish inverted transform for odometry
+* Contributors: Felix Messmer, HannesBachter
+
+0.8.15 (2021-05-17)
+-------------------
+
+0.8.14 (2021-05-10)
+-------------------
+
 0.8.13 (2021-04-06)
 -------------------
 * Merge pull request `#251 <https://github.com/ipa320/cob_control/issues/251>`_ from fmessmer/melodic/TF_REPEATED_DATA

@@ -4,7 +4,7 @@
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>cob_twist_controller</name>
-  <version>0.8.13</version>
+  <version>0.8.17</version>
   <description>
   The main purpose of the cob_twist_controller is to convert target twists into joint velocities. 
   Therefore it makes use of several implemented inverse kinematics approaches at the first order differential level. 
@@ -31,6 +31,7 @@
   <depend>cmake_modules</depend>
   <depend>cob_control_msgs</depend>
   <depend>cob_srvs</depend>
+  <depend>control_msgs</depend>
   <depend>dynamic_reconfigure</depend>
   <depend>eigen_conversions</depend>
   <depend>eigen</depend>
@@ -42,7 +43,6 @@
   <depend condition="$ROS_DISTRO == noetic">liborocos-kdl-dev</depend>
   <depend condition="$ROS_DISTRO == noetic">liborocos-kdl</depend>
   <depend>pluginlib</depend>
-  <depend>python-six</depend>
   <depend>roscpp</depend>
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
@@ -56,6 +56,8 @@
   <exec_depend>cob_script_server</exec_depend>
   <exec_depend condition="$ROS_PYTHON_VERSION == 2">python-matplotlib</exec_depend>
   <exec_depend condition="$ROS_PYTHON_VERSION == 3">python3-matplotlib</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 2">python-six</exec_depend>
+  <exec_depend condition="$ROS_PYTHON_VERSION == 3">python3-six</exec_depend>
   <exec_depend>robot_state_publisher</exec_depend>
   <exec_depend>rospy</exec_depend>
   <exec_depend>rviz</exec_depend>
