@@ -2,6 +2,34 @@
 Changelog for package cob_twist_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.8.17 (2021-12-23)
+-------------------
+* Merge pull request `#262 <https://github.com/ipa320/cob_control/issues/262>`_ from fmessmer/debug_cart_vel_recursive
+  publish cart vel magnitudes for frames of chain
+* fix catkin_lint
+* calculate fk_vel_recursive based on joint_trajectory_controller state for both desired and actual joint states
+* rename debug node
+* fix getNrOfJoints vs getNrOfSegments and fixed joint handling
+* debug chain
+* provide launch file for debug_evaluate_jointstates
+* fill header.stamp in twist_magnitude msg
+* extend debug_evaluate_jointstates_node to recursively publish cart vel magnitudes for frames of chain
+* Contributors: Felix Messmer, fmessmer
+
+0.8.16 (2021-10-19)
+-------------------
+
+0.8.15 (2021-05-17)
+-------------------
+
+0.8.14 (2021-05-10)
+-------------------
+* Merge pull request `#254 <https://github.com/ipa320/cob_control/issues/254>`_ from mikaelarguedas/python3-six
+  ROS_PYTHON_VERSION conditional dependency for python-six
+* mark exec_depend
+* ROS_PYTHON_VERSION conditional dependency for python-six
+* Contributors: Felix Messmer, Mikael Arguedas, fmessmer
+
 0.8.13 (2021-04-06)
 -------------------
 
