@@ -2,6 +2,32 @@
 Changelog for package cob_hardware_emulation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.8.17 (2021-12-23)
+-------------------
+* Merge pull request `#265 <https://github.com/ipa320/cob_control/issues/265>`_ from fmessmer/fix/emulation_argparse
+  fixup emulation argparse
+* fixup emulation argparse
+* Merge pull request `#264 <https://github.com/ipa320/cob_control/issues/264>`_ from HannesBachter/feature/laser_odometry
+  [no odom] make odom frame configurable
+* make odom frame configurable
+* Merge pull request `#263 <https://github.com/ipa320/cob_control/issues/263>`_ from fmessmer/emulation_nav
+  separate emulation_nav from emulation_base
+* separate emulation_nav from emulation_base
+* Contributors: Felix Messmer, HannesBachter, fmessmer
+
+0.8.16 (2021-10-19)
+-------------------
+
+0.8.15 (2021-05-17)
+-------------------
+* Merge pull request `#257 <https://github.com/ipa320/cob_control/issues/257>`_ from fmessmer/fix_emulated_fjt_melodic
+  [melodic] fix emulated fjt
+* never skip last traj point
+* Contributors: Felix Messmer, fmessmer
+
+0.8.14 (2021-05-10)
+-------------------
+
 0.8.13 (2021-04-06)
 -------------------
 * Merge pull request `#253 <https://github.com/ipa320/cob_control/issues/253>`_ from floweisshardt/feature/emulator_move_base_melodic
