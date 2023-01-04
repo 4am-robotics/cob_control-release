@@ -1,0 +1,12 @@
+Source: ros-noetic-cob-control-mode-adapter
+Section: misc
+Priority: optional
+Maintainer: Felix Messmer <felixmessmer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-noetic-catkin, ros-noetic-controller-manager-msgs, ros-noetic-roscpp, ros-noetic-roslint, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cob-control-mode-adapter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-noetic-controller-manager-msgs, ros-noetic-roscpp, ros-noetic-roslint, ros-noetic-std-msgs
+Description: The cob_control_mode_adapter package provides a node that automatically loads respective ros_controllers depending on required control mode.
