@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>cob_base_controller_utils</name>
-  <version>0.8.20</version>
+  <version>0.8.21</version>
   <description>The cob_base_controller_utils package contains common utils for various base_controllers.</description>
 
   <maintainer email="felixmessmer@gmail.com">Felix Messmer</maintainer>
@@ -17,6 +17,7 @@
   <exec_depend>message_runtime</exec_depend>
   
   <depend>controller_manager_msgs</depend>
+  <depend>diagnostic_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>nav_msgs</depend>
   <depend>roscpp</depend>
