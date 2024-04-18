@@ -1,3 +1,31 @@
+## cob_control (noetic) - 0.8.24-1
+
+The packages in the `cob_control` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release --ros-distro noetic --edit cob_control` on `Thu, 18 Apr 2024 10:41:23 -0000`
+
+These packages were released:
+- `cob_base_velocity_smoother`
+- `cob_collision_velocity_filter`
+- `cob_control`
+- `cob_footprint_observer`
+- `cob_hardware_emulation`
+
+Version of package(s) in repository `cob_control`:
+
+- upstream repository: https://github.com/4am-robotics/cob_control.git
+- release repository: https://github.com/4am-robotics/cob_control-release.git
+- rosdistro version: `0.8.23-1`
+- old version: `0.8.23-1`
+- new version: `0.8.24-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## cob_control (noetic) - 0.8.23-1
 
 The packages in the `cob_control` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic --edit --override-release-repository-url https://github.com/4am-robotics/cob_control-release.git cob_control` on `Tue, 20 Feb 2024 08:40:06 -0000`
