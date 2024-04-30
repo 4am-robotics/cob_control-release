@@ -4,7 +4,7 @@
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>cob_obstacle_distance</name>
-  <version>0.8.23</version>
+  <version>0.8.24</version>
   <description>The cob_obstacle_distance package calculates distances between both robot links and obstacles to be used for obstacle avoidance within cob_twist_controller framework.</description>
 
   <maintainer email="felixmessmer@gmail.com">Felix Messmer</maintainer>
@@ -21,15 +21,14 @@
   <depend>dynamic_reconfigure</depend>
   <depend>eigen_conversions</depend>
   <depend>eigen</depend>
-  <depend condition="$ROS_DISTRO != noetic">libfcl-dev</depend>
-  <depend condition="$ROS_DISTRO == noetic">fcl</depend>
+  <depend>fcl</depend>
   <depend>geometry_msgs</depend>
   <depend>kdl_conversions</depend>
   <depend>kdl_parser</depend>
+  <depend>libccd-dev</depend>
+  <depend>libfcl-dev</depend>
+  <depend>liborocos-kdl-dev</depend>
   <depend>moveit_msgs</depend>
-  <depend condition="$ROS_DISTRO == melodic">orocos_kdl</depend>
-  <depend condition="$ROS_DISTRO == noetic">liborocos-kdl-dev</depend>
-  <depend condition="$ROS_DISTRO == noetic">liborocos-kdl</depend>
   <depend>pkg-config</depend>
   <depend>roscpp</depend>
   <depend>roslib</depend>
