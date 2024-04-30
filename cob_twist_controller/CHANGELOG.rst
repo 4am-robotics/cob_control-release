@@ -2,6 +2,9 @@
 Changelog for package cob_twist_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.8.24 (2024-04-30)
+-------------------
+
 0.8.23 (2024-02-20)
 -------------------
 * Merge pull request `#281 <https://github.com/4am-robotics/cob_control/issues/281>`_ from fmessmer/feature/optimize_workspace
